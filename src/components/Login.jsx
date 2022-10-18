@@ -28,7 +28,7 @@ export default function Login() {
             sx={{
               display: 'flex',
               flexDirection: 'column',
-              height: '70vh',
+              height: '60vh',
               alignItems: 'center',
               justifyContent: 'center',
             }}

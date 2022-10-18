@@ -7,7 +7,7 @@ const Main = styled.main`
 `;
 
 const MyImg = styled.img`
-  width: 700px;
+  width: 500px;
   margin-top: 2em;
 `;
 
