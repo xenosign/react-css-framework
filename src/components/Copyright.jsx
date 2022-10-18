@@ -6,7 +6,7 @@ export default function Copyright() {
     <Typography variant="body2" color="text.secondary" align="center">
       <GitHubIcon sx={{ mr: 1 }} />
       <Link color="inherit" href="https://github.com/xenosign">
-        My Github!!!!!!!!!!
+        My Github
       </Link>{' '}
       {new Date().getFullYear()}
       {'.'}
