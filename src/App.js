@@ -4,6 +4,7 @@ import Item from './pages/Item';
 import Join from './pages/Join';
 import Login from './pages/Login';
 import AlbumOG from './components/AlbumOg';
+import SignUp2 from './pages/SignUp2';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Route path="/album" element={<AlbumOG />} />
       <Route path="/join" element={<Join />} />
       <Route path="/login" element={<Login />} />
+      <Route path="/signup2" element={<SignUp2 />} />
     </Routes>
   );
 }
