@@ -1,6 +1,6 @@
 import { Route, Routes } from 'react-router-dom';
 import Index from './pages/Index';
-import Item from './pages/Item';
+import Item2 from './pages/Item';
 import Join from './pages/Join';
 import Login from './pages/Login';
 import Signup1 from './pages/Signup1';
@@ -11,7 +11,7 @@ function App() {
   return (
     <Routes>
       <Route path="/" element={<Index />} />
-      <Route path="/item" element={<Item />} />
+      <Route path="/item" element={<Item2 />} />
       <Route path="/album" element={<AlbumOG />} />
       <Route path="/join" element={<Join />} />
       <Route path="/login" element={<Login />} />
